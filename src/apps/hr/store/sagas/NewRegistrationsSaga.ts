@@ -13,7 +13,7 @@ function* getNewRegistrationsData(payload: NewRegistrationsRequest): IterableIte
     const response: undefined | NewRegistrationsResponse = yield NewRegistrationsService.newRegistrations(payload);
     yield put(NewRegistrationsActions.newRegistrationsSuccess(response as any));
   } catch (error) {
-    yield put(NewRegistrationsActions.newRegistrationsFailure(error));
+    yield put(NewRegistrationsActions.newRegistrationsFailure(error as any));
   }
 }
 

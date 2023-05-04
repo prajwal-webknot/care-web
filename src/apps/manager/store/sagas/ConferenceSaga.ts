@@ -12,7 +12,7 @@ function* postConferenceRoomData(payload: ConferenceRequest): IterableIterator<a
         const response: undefined | ConferenceResponse = yield AuthService.postConferenceRoom(payload);
         yield put(ConferenceActions.postConferenceRoomSuccess(response as any));
     } catch (error) {
-        yield put(ConferenceActions.postConferenceRoomFailure(error));
+        yield put(ConferenceActions.postConferenceRoomFailure(error as any));
     }
 }
 function* postConferenceRoomBookData(payload: ConferenceRequest): IterableIterator<any> {
@@ -20,7 +20,7 @@ function* postConferenceRoomBookData(payload: ConferenceRequest): IterableIterat
         const response: undefined | ConferenceResponse = yield AuthService.postConferenceRoomBook(payload);
         yield put(ConferenceActions.postConferenceRoomBookSuccess(response as any));
     } catch (error) {
-        yield put(ConferenceActions.postConferenceRoomBookFailure(error));
+        yield put(ConferenceActions.postConferenceRoomBookFailure(error as any));
     }
 }
 

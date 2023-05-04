@@ -13,7 +13,7 @@ import moment from "moment";
 import { SearchOutlined } from "@ant-design/icons";
 
 export default function ColumnsData(keys: string[]) {
-  let searchInput = useRef<Input>(null);
+  let searchInput = useRef<any>(null);
 
   const getColumnSearchProps = (dataIndex: string) => ({
     filterDropdown: ({

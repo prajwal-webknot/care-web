@@ -17,7 +17,7 @@ interface Props {
 export default function SafetyBreachesDetails(props: any) {
   const { parent } = props;
   const dispatch = useDispatch();
-  const { view } = useParams();
+  const { view }:any = useParams();
 
   // Selectors
   const loading: any = useSelector(safetyBreachesLoading);

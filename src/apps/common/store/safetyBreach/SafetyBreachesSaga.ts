@@ -13,7 +13,7 @@ function* getSafetyBreachesData(payload: SafetyBreachesRequest): IterableIterato
     const response: undefined | SafetyBreachesResponse = yield SafetyBreachesService.safetyBreaches(payload);
     yield put(SafetyBreachesActions.safetyBreachesSuccess(response as any));
   } catch (error) {
-    yield put(SafetyBreachesActions.safetyBreachesFailure(error));
+    yield put(SafetyBreachesActions.safetyBreachesFailure(error as any));
   }
 }
 

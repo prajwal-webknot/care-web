@@ -41,7 +41,7 @@ interface rolesProp {
 
 export default function Header(props: any) {
   const { persona, sosAlert, noNotifications, handleLogout, noCities } = props;
-  const { view } = useParams();
+  const { view }:any = useParams();
   const dispatch = useDispatch();
   const alertResponse = useSelector(sendAlertSelector);
   const userData = useSelector(userDetails);

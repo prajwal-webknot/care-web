@@ -17,7 +17,7 @@ function* getSeatSummary(payload: SeatSummaryRequest): IterableIterator<any> {
       | SeatSummaryResponse = yield SeatSummaryService.SeatSummary(payload);
     yield put(SeatSummaryActions.getSeatSummarySuccess(response as any));
   } catch (error) {
-    yield put(SeatSummaryActions.getSeatSummaryFailure(error));
+    yield put(SeatSummaryActions.getSeatSummaryFailure(error as any));
   }
 }
 

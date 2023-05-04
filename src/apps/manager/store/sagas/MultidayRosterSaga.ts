@@ -12,7 +12,7 @@ function* postMultidayRosterData(payload: MultidayRosterRequest): IterableIterat
         const response: undefined | MultidayRosterResponse = yield AuthService.postRoster(payload);
         yield put(MultidayRosterActions.postRosterSuccess(response as any));
     } catch (error) {
-        yield put(MultidayRosterActions.postRosterFailure(error));
+        yield put(MultidayRosterActions.postRosterFailure(error as any));
     }
 }
 

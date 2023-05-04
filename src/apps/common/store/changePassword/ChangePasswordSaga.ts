@@ -24,7 +24,7 @@ function* ChangePassword(payload: ChangePasswordRequest): IterableIterator<any> 
     }
     yield put(ChangePasswordActions.ChangePasswordSuccess(response as any));
   } catch (error) {
-    yield put(ChangePasswordActions.ChangePasswordFailure(error));
+    yield put(ChangePasswordActions.ChangePasswordFailure(error as any));
   }
 }
 

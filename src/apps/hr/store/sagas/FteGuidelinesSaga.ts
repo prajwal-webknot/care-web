@@ -18,7 +18,7 @@ function* getFteGuidelinesData(payload: DynamicQueryPath): IterableIterator<any>
     const response: undefined | GetFteGuidelinesResponse = yield AuthService.getFteGuidelines(payload);
     yield put(FteGuidelinesActions.getFteGuidelinesSuccess(response as any));
   } catch (error) {
-    yield put(FteGuidelinesActions.getFteGuidelinesFailure(error));
+    yield put(FteGuidelinesActions.getFteGuidelinesFailure(error as any));
   }
 }
 
@@ -27,7 +27,7 @@ function* setFteGuidelinesData(payload: SetFteGuidelinesRequest): IterableIterat
     const response: undefined | SetFteGuidelinesResponse = yield AuthService.setFteGuidelines(payload);
     yield put(FteGuidelinesActions.setFteGuidelinesSuccess(response as any));
   } catch (error) {
-    yield put(FteGuidelinesActions.setFteGuidelinesFailure(error));
+    yield put(FteGuidelinesActions.setFteGuidelinesFailure(error as any));
   }
 }
 

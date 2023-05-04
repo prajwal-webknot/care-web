@@ -19,7 +19,7 @@ function* getSeatSummarySeats(payload: SeatSummarySeatsRequest): IterableIterato
       | SeatSummarySeatsResponse = yield SeatSummarySeatsService.SeatSummarySeats(payload);
     yield put(SeatSummarySeatsActions.getSeatSummarySeatsSuccess(response as any));
   } catch (error) {
-    yield put(SeatSummarySeatsActions.getSeatSummarySeatsFailure(error));
+    yield put(SeatSummarySeatsActions.getSeatSummarySeatsFailure(error as any));
   }
 }
 function* patchSeatSummaryRequest(
@@ -33,7 +33,7 @@ function* patchSeatSummaryRequest(
     );
     yield put(SeatSummarySeatsActions.patchSeatSummarySuccess(response as any));
   } catch (error) {
-    yield put(SeatSummarySeatsActions.patchSeatSummaryFailure(error));
+    yield put(SeatSummarySeatsActions.patchSeatSummaryFailure(error as any));
   }
 }
 

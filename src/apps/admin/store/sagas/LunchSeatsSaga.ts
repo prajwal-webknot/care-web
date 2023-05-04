@@ -19,7 +19,7 @@ function* getLunchSeatsData(payload: LunchSeatsRequest): IterableIterator<any> {
       | LunchSeatsResponse = yield LunchSeatsService.LunchSeats(payload);
     yield put(LunchSeatsActions.getLunchSeatsSuccess(response as any));
   } catch (error) {
-    yield put(LunchSeatsActions.getLunchSeatsFailure(error));
+    yield put(LunchSeatsActions.getLunchSeatsFailure(error as any));
   }
 }
 function* patchCafeRequest(payload: EditCafeRequest): IterableIterator<any> {
@@ -29,7 +29,7 @@ function* patchCafeRequest(payload: EditCafeRequest): IterableIterator<any> {
       | EditCafeResponse = yield LunchSeatsService.patchLunchCafe(payload);
     yield put(LunchSeatsActions.patchCafeSuccess(response as any));
   } catch (error) {
-    yield put(LunchSeatsActions.patchCafeFailure(error));
+    yield put(LunchSeatsActions.patchCafeFailure(error as any));
   }
 }
 

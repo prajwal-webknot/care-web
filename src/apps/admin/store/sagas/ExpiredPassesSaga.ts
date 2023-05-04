@@ -13,7 +13,7 @@ function* getExpiredPassesData(payload: ExpiredPassesRequest): IterableIterator<
     const response: undefined | ExpiredPassesResponse = yield AuthService.ExpiredPasses(payload);
     yield put(ExpiredPassesActions.getExpiredPassesSuccess(response as any));
   } catch (error) {
-    yield put(ExpiredPassesActions.getExpiredPassesFailure(error));
+    yield put(ExpiredPassesActions.getExpiredPassesFailure(error as any));
   }
 }
 

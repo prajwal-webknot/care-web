@@ -13,7 +13,7 @@ function* postTempVisitorData(payload: PostTempVisitorRequest): IterableIterator
     const response: undefined | PostTempVisitorResponse = yield TempVisitorService.postVisitor(payload);
     yield put(TempVisitorActions.postTempVisitorSuccess(response as any));
   } catch (error) {
-    yield put(TempVisitorActions.postTempVisitorFailure(error));
+    yield put(TempVisitorActions.postTempVisitorFailure(error as any));
   }
 }
 

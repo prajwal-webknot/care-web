@@ -15,7 +15,7 @@ function* getNotifications(payload: DynamicQueryPath): IterableIterator<any> {
     const response: undefined | NotificationsResponse = yield AuthService.GetNotifications(payload);
     yield put(NotificationsActions.getNotificationsSuccess(response as any));
   } catch (error) {
-    yield put(NotificationsActions.getNotificationsFailure(error));
+    yield put(NotificationsActions.getNotificationsFailure(error as any));
   }
 }
 
@@ -25,7 +25,7 @@ function* markNotifications(payload: MarkNotificationsRequest): IterableIterator
     const response: undefined | MarkNotificationsResponse = yield AuthService.MarkNotifications(payload);
     yield put(NotificationsActions.markNotificationsReadSuccess(response as any));
   } catch (error) {
-    yield put(NotificationsActions.markNotificationsReadFailure(error));
+    yield put(NotificationsActions.markNotificationsReadFailure(error as any));
   }
 }
 

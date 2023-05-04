@@ -17,7 +17,7 @@ export default function FteModal(props: Props) {
     const [fteValue, setFteValue] = useState(0);
     const [selectedSitesIds, setSelectedSitesIds] = useState<any[]>([]);
 
-    function onChange(value: number | string | undefined) {
+    function onChange(value: any) {
         setFteValue(Number(value));
     }
 

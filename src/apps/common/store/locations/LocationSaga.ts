@@ -13,7 +13,7 @@ function* locations(payload: LocationRequest): IterableIterator<any> {
     const response: undefined | LocationResponse = yield LocationService.getLocations(payload);
     yield put(LocationActions.locationSuccess(response as any));
   } catch (error) {
-    yield put(LocationActions.locationFailure(error));
+    yield put(LocationActions.locationFailure(error as any));
   }
 }
 

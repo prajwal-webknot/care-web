@@ -12,7 +12,7 @@ function* userDetails(payload: UserDetailsRequest): IterableIterator<any> {
     const response: undefined | UserDetailsResponse = yield UserDetailsService.userDetails(payload);
     yield put(UserDetailsActions.userDetailsSuccess(response as any));
   } catch (error) {
-    yield put(UserDetailsActions.userDetailsFailure(error));
+    yield put(UserDetailsActions.userDetailsFailure(error as any));
   }
 }
 
@@ -21,7 +21,7 @@ function* deleteUser(payload: DeleteUserRequest): IterableIterator<any> {
     const response: undefined | DeleteUserResponse = yield UserDetailsService.deleteUser(payload);
     yield put(UserDetailsActions.deleteUserSuccess(response as any));
   } catch (error) {
-    yield put(UserDetailsActions.deleteUserFailure(error));
+    yield put(UserDetailsActions.deleteUserFailure(error as any));
   }
 }
 

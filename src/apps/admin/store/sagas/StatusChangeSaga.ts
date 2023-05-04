@@ -11,7 +11,7 @@ function* statusChange(payload: StatusChangeRequest): IterableIterator<any> {
     const response: undefined | StatusChangeResponse = yield AuthService.StatusChange(payload);
     yield put(StatusChangeActions.statusChangeSuccess(response as any));
   } catch (error) {
-    yield put(StatusChangeActions.statusChangeResponse(error));
+    yield put(StatusChangeActions.statusChangeResponse(error as any));
   }
 }
 function* statusChangeTemp(payload: StatusChangeRequest): IterableIterator<any> {
@@ -19,7 +19,7 @@ function* statusChangeTemp(payload: StatusChangeRequest): IterableIterator<any> 
     const response: undefined | StatusChangeResponse = yield AuthService.patchTempVisitor(payload);
     yield put(StatusChangeActions.statusChangeTempSuccess(response as any));
   } catch (error) {
-    yield put(StatusChangeActions.statusChangeTempResponse(error));
+    yield put(StatusChangeActions.statusChangeTempResponse(error as any));
   }
 }
 

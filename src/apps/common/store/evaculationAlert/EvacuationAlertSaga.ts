@@ -13,7 +13,7 @@ function* sendEvacuationAlert(payload: EvacuationAlertRequest): IterableIterator
     const response: undefined | EvacuationAlertResponse = yield AuthService.EvacuationAlert(payload);
     yield put(EvacuationAlertActions.sendEvacuationAlertSuccess(response as any));
   } catch (error) {
-    yield put(EvacuationAlertActions.sendEvacuationAlertFailure(error));
+    yield put(EvacuationAlertActions.sendEvacuationAlertFailure(error as any));
   }
 }
 

@@ -11,7 +11,7 @@ import getColumnsData from "../../../common/constants/columnsData";
 import { useParams } from "react-router-dom";
 
 export default function TeamHeadCountScreen(props: any) {
-  const { type } = useParams();
+  const { type }:any = useParams();
   let empListResp: any = useSelector(employeeListResp);
 
   const dispatch = useDispatch();

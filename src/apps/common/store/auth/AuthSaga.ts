@@ -29,7 +29,7 @@ function* login(payload: AuthRequest): IterableIterator<any> {
     }
     yield put(AuthActions.loginSuccess(response as any));
   } catch (error) {
-    yield put(AuthActions.loginFailure(error));
+    yield put(AuthActions.loginFailure(error as any));
   }
 }
 
@@ -42,7 +42,7 @@ function* isValidUser() {
       throw new Error("No user details found");
     }
   } catch (error) {
-    yield put(AuthActions.checkUserValidity.failed(error));
+    yield put(AuthActions.checkUserValidity.failed(error as any));
   }
 }
 
@@ -52,7 +52,7 @@ function* logoutUser() {
     localStorage.clear();
     yield put(AuthActions.logoutUserAction.done({ params: undefined, result: undefined }));
   } catch (error) {
-    yield put(AuthActions.logoutUserAction.failed(error));
+    yield put(AuthActions.logoutUserAction.failed(error as any));
   }
 }
 

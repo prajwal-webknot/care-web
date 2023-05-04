@@ -52,8 +52,8 @@ export default function LoginForm(props: Props) {
 
 
   // Refs
-  const userIdRef = useRef<Input>(null);
-  const passwordRef = useRef<Input>(null);
+  const userIdRef = useRef<any>(null);
+  const passwordRef = useRef<any>(null);
 
   useEffect(() => {
     dispatch(AuthActions.clearReducer());

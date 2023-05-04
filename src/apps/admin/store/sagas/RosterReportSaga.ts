@@ -17,7 +17,7 @@ function* getRosterReport(payload: RosterReportRequest): IterableIterator<any> {
       | RosterReportResponse = yield RosterReportService.RosterReport(payload);
     yield put(RosterReportActions.getRosterReportSuccess(response as any));
   } catch (error) {
-    yield put(RosterReportActions.getRosterReportFailure(error));
+    yield put(RosterReportActions.getRosterReportFailure(error as any));
   }
 }
 

@@ -13,7 +13,7 @@ function* getCensusData(payload: CensusRequest): IterableIterator<any> {
     const response: undefined | CensusResponse = yield CensusService.census(payload);
     yield put(CensusActions.censusSuccess(response as any));
   } catch (error) {
-    yield put(CensusActions.censusFailure(error));
+    yield put(CensusActions.censusFailure(error as any));
   }
 }
 

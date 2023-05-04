@@ -17,7 +17,7 @@ import { statusChange } from "../../../admin/store/reducers/StatusChangeReducer"
 import BufferModal from './bufferModal';
 
 export default function ApprovalDetails(props: any) {
-  const { view } = useParams();
+  const { view }:any = useParams();
   const dispatch = useDispatch();
 
   // States
