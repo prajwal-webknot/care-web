@@ -1,0 +1,24 @@
+.login-main-container {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	.left-section {
+		@media (max-width: 767px) {
+			width: 100%;
+		}
+		width: 45%;
+		.logo {
+			width: 7em;
+			height: 5em;
+			margin-top: 2em;
+			margin-left: 2em;
+		}
+	}
+	.right-section-img {
+		@media (max-width: 767px) {
+			display: none;
+		}
+		width: 55%;
+		background-color: #fbd55b;
+	}
+}

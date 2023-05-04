@@ -1,0 +1,43 @@
+.calendar-container {
+	width: 70%;
+	padding: 5px 20px;
+	position: relative;
+	.ant-picker-calendar {
+		padding: 24px;
+	}
+	.clear-button {
+		position: absolute;
+		left: 1e;
+		left: 3em;
+		top: 38px;
+		border-radius: 4px;
+	}
+}
+
+.ant-picker-calendar-full {
+	.ant-picker-panel {
+		.ant-picker-calendar-date {
+			height: 56px;
+		}
+	}
+}
+
+.cells {
+	margin: 1px 2px;
+	height: 4em;
+	font-size: 15px;
+	padding: 4px 12px;
+	background-color: #efefef;
+}
+.selected-date {
+	color: white;
+	background-color: green;
+}
+.disabled-date {
+	cursor: not-allowed !important;
+	background-color: #d0cfcf;
+}
+
+.disable {
+	cursor: not-allowed;
+}

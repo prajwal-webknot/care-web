@@ -1,0 +1,29 @@
+@import './variables.scss';
+.ant-card-body {
+	padding: 13px;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+	color: $themeRed;
+}
+.ant-tabs-ink-bar {
+	background-color: $themeRed;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover {
+	color: $themeRed;
+}
+
+.ant-table-cell {
+	color: $lightGrey;
+}
+
+.ant-table-thead > tr > th {
+	@extend .ant-table-cell;
+	background: #f3f6fa;
+}
+
+.ant-btn-primary, .ant-btn-primary:hover{
+    background-color: #0E8190;
+    border-color: #0E8190;
+}

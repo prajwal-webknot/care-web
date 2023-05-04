@@ -1,0 +1,142 @@
+@import './flex.scss';
+@import './antd-styles.scss';
+@import './variables.scss';
+
+// Font styles
+.big-font {
+	font-size: 20px;
+}
+
+.grey-font {
+	color: $mediumGrey;
+}
+
+.dark-grey-font {
+	color: $darkGrey;
+}
+
+.warm-grey {
+	color: $warmGrey;
+}
+
+// Font styles
+.text-center {
+	text-align: center;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.layout-container {
+	min-height: 90vh;
+	background: $themeBackgroundColor;
+	padding: 20px 60px;
+}
+.layout-vh {
+	min-height: 90vh;
+}
+.w-50 {
+	width: 50%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.padding-right {
+	padding-right: 26px;
+}
+
+.header-color {
+	font-size: 20px;
+	color: $themeRed;
+}
+.ant-select-selection-placeholder {
+	color: gray;
+	opacity: 1;
+	font-weight: bold;
+}
+.modal-content {
+	::placeholder {
+		color: gray;
+		font-weight: bold;
+	}
+	padding-top: 10px;
+	margin-bottom: 1em;
+	color: $warmGrey;
+}
+
+.red-font {
+	color: $red;
+}
+
+.green-font {
+	color: $green;
+}
+
+.green-background {
+	background-color: $green !important;
+	border: none;
+	outline: none;
+}
+
+.orange-font {
+	color: $orange;
+}
+.dashboard-skeleton {
+	padding: 16px 42px;
+}
+
+.vh-100 {
+	min-height: 100vh;
+}
+
+.no-border {
+	outline: none;
+	border: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.empty-container {
+	height: 29.375rem;
+	background-color: white;
+	padding-top: 2rem;
+}
+.empty-text {
+	font-size: 1rem;
+	color: #3d4b64;
+}
+.empty-text-container {
+	padding-top: 1.375rem;
+}
+
+.error-screen {
+	width: 50%;
+	height: 80vh;
+	transform: translateX(50%);
+}
+
+.tag-bluetooth {
+	border-radius: 15px;
+	width: 50px;
+	text-align: center;
+}
+
+.border-radius-10 {
+	border-radius: 10px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+.modal-header {
+	font-weight: bold;
+}

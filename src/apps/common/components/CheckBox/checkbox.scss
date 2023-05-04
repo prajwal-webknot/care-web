@@ -1,0 +1,29 @@
+.ant-checkbox-group-item {
+  display: block;
+  margin-right: 0;
+  align-items: center;
+}
+
+.calendar-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.checkbox-list-container{
+  margin-top: 28px;
+  max-height: 55vh;
+  overflow: auto;
+}
+.checkbox-group-container {
+  .ant-checkbox-wrapper {
+    font-size: 22px;
+    .ant-checkbox {
+      .ant-checkbox-inner {
+        padding: 12px;
+      }
+      .ant-checkbox-inner::after {
+        height: 15px;
+      }
+    }
+  }
+}

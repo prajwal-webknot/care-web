@@ -1,0 +1,57 @@
+.notification-header {
+	background: #dd3e3e;
+	color: white;
+	padding: 18px;
+	font-weight: bold;
+	.refresh-notification-icon {
+		width: 16px;
+		height: 16px;
+		margin-left: 10px;
+	}
+}
+
+.notification-body {
+	overflow-y: auto;
+	height: 90vh;
+	cursor: pointer;
+}
+
+.notification-clear {
+	margin-left: 20%;
+	cursor: pointer;
+}
+
+.notification-text {
+	// color: #8c8c8c;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.header-text {
+	font-weight: bold;
+	font-size: 16px;
+	width: 90%;
+}
+
+.notification {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 100;
+	height: 90vh;
+}
+.time-not {
+	font-size: 11px;
+	color: grey;
+	margin-top: 4px;
+}
+
+.notification-cards {
+	background-color: #efeded;
+}
+
+.loader-body {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}

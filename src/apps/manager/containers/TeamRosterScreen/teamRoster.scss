@@ -1,0 +1,43 @@
+.layout-container {
+    position: relative;
+    min-height: 90vh;
+    .clear-button-roster {
+        position: absolute;
+        left: 7em;
+        top: 122px;
+        z-index: 2;
+        border-radius: 4px;
+    }
+}
+.left-section-roster {
+    min-width: 70%;
+    min-height: 75vh;
+    background-color: #ffffff;
+    display: contents;
+}
+.right-section-roster {
+    min-width: 30%;
+    padding: 10px 30px;
+    .guideline-container {
+        border: 1px solid;
+        border-radius: 4px;
+        height: 40px;
+        position: relative;
+        .guideline-label {
+            position: absolute;
+            top: -8px;
+            font-size: 10px;
+            left: 10px;
+            background: #E8F3F4;
+            z-index: 2;
+        }
+        .guideline-value {
+            font-size: 21px;
+            padding: 4px 10px;
+        }
+    }
+}
+
+.ant-checkbox-group-item {
+    display: flex;
+}

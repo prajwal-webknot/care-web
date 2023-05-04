@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Passes_Expire">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Passes_Expire" data-name="Passes Expire" clip-path="url(#clip-Passes_Expire)">
+    <g id="Group_728" data-name="Group 728" transform="translate(-986 -121)">
+      <g id="Safety" transform="translate(986 121)">
+        <rect id="Rectangle_249" data-name="Rectangle 249" width="30" height="30" rx="4" fill="#2cbeff" opacity="0.688"/>
+      </g>
+      <g id="entertainment" transform="translate(990 125)">
+        <g id="Group_422" data-name="Group 422">
+          <g id="Group_421" data-name="Group 421">
+            <path id="Path_528" data-name="Path 528" d="M19.276,5.508l-.456.456a1.971,1.971,0,0,1-2.788-2.788l.456-.456L13.767,0,0,13.767l2.72,2.72.456-.456A1.971,1.971,0,0,1,5.964,18.82l-.456.456L8.229,22,22,8.229ZM7.287,19.231a3.262,3.262,0,0,0-4.521-4.521l-.942-.942L13.767,1.823l.942.942a3.262,3.262,0,0,0,4.521,4.521l.942.942L8.229,20.173Z"/>
+          </g>
+        </g>
+        <g id="Group_424" data-name="Group 424" transform="translate(11.932 8.238)">
+          <g id="Group_423" data-name="Group 423" transform="translate(0 0)">
+            <rect id="Rectangle_277" data-name="Rectangle 277" width="1.289" height="1.294" transform="translate(0 0.911) rotate(-45)"/>
+          </g>
+        </g>
+        <g id="Group_426" data-name="Group 426" transform="translate(10.102 6.407)">
+          <g id="Group_425" data-name="Group 425" transform="translate(0 0)">
+            <rect id="Rectangle_278" data-name="Rectangle 278" width="1.289" height="1.294" transform="translate(0 0.911) rotate(-45)"/>
+          </g>
+        </g>
+        <g id="Group_428" data-name="Group 428" transform="translate(13.762 10.068)">
+          <g id="Group_427" data-name="Group 427" transform="translate(0 0)">
+            <rect id="Rectangle_279" data-name="Rectangle 279" width="1.289" height="1.294" transform="translate(0 0.911) rotate(-45)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Artboard_4">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_4" data-name="Artboard – 4" clip-path="url(#clip-Artboard_4)">
+    <g id="Group_503" data-name="Group 503" transform="translate(-76 -703)">
+      <rect id="Rectangle_249" data-name="Rectangle 249" width="30" height="30" rx="4" transform="translate(77 704)" fill="#0E8190"/>
+      <g id="security" transform="translate(83 710)">
+        <path id="Path_513" data-name="Path 513" d="M92.111,126v6.246A1.67,1.67,0,0,0,91,133.819v1.667h12.226v-1.667a1.67,1.67,0,0,0-1.111-1.572V126a5,5,0,0,0-10,0Zm10,8.373h-10v-.556a.556.556,0,0,1,.556-.556h8.892a.556.556,0,0,1,.556.556Zm-5-12.263A3.894,3.894,0,0,1,101,126v6.15h-7.78V126A3.894,3.894,0,0,1,97.113,122.111Zm0,0" transform="translate(-87.629 -116.517)"/>
+        <path id="Path_514" data-name="Path 514" d="M241,211h1.111v3.334H241Zm0,0" transform="translate(-232.071 -203.183)"/>
+        <path id="Path_515" data-name="Path 515" d="M241,331h1.111v1.111H241Zm0,0" transform="translate(-232.071 -318.737)"/>
+        <path id="Path_516" data-name="Path 516" d="M0,241H2.26v1.111H0Zm0,0" transform="translate(0 -232.071)"/>
+        <path id="Path_517" data-name="Path 517" d="M451,241h2.26v1.111H451Zm0,0" transform="translate(-434.291 -232.071)"/>
+        <path id="Path_518" data-name="Path 518" d="M384.849,65.078l.786.786-1.572,1.572-.786-.786Zm0,0" transform="translate(-369.077 -62.667)"/>
+        <path id="Path_519" data-name="Path 519" d="M66.654,67.44l-1.572-1.572.786-.786,1.572,1.572Zm0,0" transform="translate(-62.671 -62.671)"/>
+        <path id="Path_520" data-name="Path 520" d="M241,0h1.111V2.26H241Zm0,0" transform="translate(-232.071)"/>
+      </g>
+    </g>
+  </g>
+</svg>

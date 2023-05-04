@@ -1,0 +1,28 @@
+@import '../../../../sass/variables.scss';
+
+.login-container {
+	margin-top: 8em;
+	.form-item {
+		.form-labels {
+			transform: translate(17px, 24px) scale(1);
+			background: $primaryWhite;
+			position: relative;
+			z-index: 2;
+			width: fit-content;
+			color: $labelColor;
+		}
+	}
+	.ant-form-item-control {
+		.ant-form-item-control-input {
+			.ant-form-item-control-input-content {
+				.ant-input {
+					height: 3em;
+				}
+			}
+		}
+	}
+}
+
+.login-error-msg {
+	margin: 10px 0;
+}

@@ -1,0 +1,52 @@
+@import '../../../../sass/variables.scss';
+@import '../../../../sass/main.scss';
+
+.header-container {
+	@media (max-width: 767px) {
+		width: 100%;
+		margin: 0;
+		background-color: white;
+	}
+	max-height: 10vh;
+	width: 95%;
+	margin: 0px 30px;
+	background-color: white;
+
+	.header {
+		padding: 0 20px;
+	}
+	.header-logo {
+		width: 4em;
+		// height: 4em;
+	}
+	.header-margin {
+		margin: 0 15px;
+	}
+
+	.sos {
+		@extend .no-border;
+		background-color: #0E8190;
+		color: white;
+		font-size: 11px;
+		padding: 4px;
+		border-radius: 50%;
+		width: 3em;
+	}
+}
+
+.dropdown-options {
+	font-weight: 550;
+	color: gray;
+}
+
+.user-icon {
+	margin: 0 5px;
+	width: 1.3em;
+	height: 1.3em;
+}
+.logout-icon {
+	margin-left: 8px;
+}
+.notif-bell-icon {
+	font-size: 20px;
+}

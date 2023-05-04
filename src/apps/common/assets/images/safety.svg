@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-Artboard_5">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_5" data-name="Artboard – 5" clip-path="url(#clip-Artboard_5)">
+    <g id="Group_501" data-name="Group 501" transform="translate(-983 -514)">
+      <rect id="Rectangle_771" data-name="Rectangle 771" width="30" height="30" rx="4" transform="translate(984 515)" fill="#f7cf77" opacity="0.688"/>
+      <g id="shield-keyhole-line" transform="translate(988 519)">
+        <path id="Path_504" data-name="Path 504" d="M0,0H23V23H0Z" fill="none"/>
+        <path id="Path_505" data-name="Path 505" d="M11.624,1,19.5,2.75a.958.958,0,0,1,.75.935v9.569a5.749,5.749,0,0,1-2.56,4.783L11.624,22.08,5.56,18.037A5.749,5.749,0,0,1,3,13.255V3.685a.958.958,0,0,1,.75-.935Zm0,1.963L4.916,4.453v8.8a3.833,3.833,0,0,0,1.706,3.189l5,3.334,5-3.334a3.833,3.833,0,0,0,1.707-3.188v-8.8L11.624,2.964Zm0,3.786a1.916,1.916,0,0,1,.959,3.576v4.089H10.665V10.325a1.916,1.916,0,0,1,.958-3.576Z" transform="translate(-0.125 -0.042)"/>
+      </g>
+    </g>
+  </g>
+</svg>
