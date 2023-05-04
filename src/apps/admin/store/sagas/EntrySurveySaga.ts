@@ -13,7 +13,7 @@ function* getEntrySurveyData(payload: EntrySurveyRequest): IterableIterator<any>
     const response: undefined | EntrySurveyResponse = yield EntrySurveyService.survey(payload);
     yield put(EntrySurveyActions.entrySurveySuccess(response as any));
   } catch (error) {
-    yield put(EntrySurveyActions.entrySurveyFailure(error));
+    yield put(EntrySurveyActions.entrySurveyFailure(error as any));
   }
 }
 function* postEntrySurveyData(payload: PostSurveyRequest): IterableIterator<any> {
@@ -21,7 +21,7 @@ function* postEntrySurveyData(payload: PostSurveyRequest): IterableIterator<any>
     const response: undefined | PostSurveyResponse = yield EntrySurveyService.postSurvey(payload);
     yield put(EntrySurveyActions.postSurveySuccess(response as any));
   } catch (error) {
-    yield put(EntrySurveyActions.postSurveyFailure(error));
+    yield put(EntrySurveyActions.postSurveyFailure(error as any));
   }
 }
 

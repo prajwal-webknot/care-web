@@ -18,7 +18,7 @@ function* getContactTracingData(
       yield ContactTracingService.contactTrace(payload);
     yield put(ContactTracingActions.getContactTracingSuccess(response as any));
   } catch (error) {
-    yield put(ContactTracingActions.getContactTracingFailure(error));
+    yield put(ContactTracingActions.getContactTracingFailure(error as any));
   }
 }
 

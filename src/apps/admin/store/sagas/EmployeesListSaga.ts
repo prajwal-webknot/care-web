@@ -13,7 +13,7 @@ function* getEmployeesData(payload: EmployeesListRequest): IterableIterator<any>
     const response: undefined | EmployeesListResponse = yield AuthService.employeesList(payload);
     yield put(EmployeesActions.getEmployeesSuccess(response as any));
   } catch (error) {
-    yield put(EmployeesActions.getEmployeesFailure(error));
+    yield put(EmployeesActions.getEmployeesFailure(error as any));
   }
 }
 

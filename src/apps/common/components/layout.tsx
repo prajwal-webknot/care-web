@@ -198,7 +198,7 @@ export default function AppLayout() {
         <div>
             <ScrollToTop />
             <Switch>
-                <Route exact path={LOGIN_PATH} noheader component={LoginScreen} />
+                <Route exact path={LOGIN_PATH}  component={LoginScreen} />
 
                 <PrivateRoute
                     exact

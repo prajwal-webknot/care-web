@@ -13,7 +13,7 @@ function* getEmergencyDetailsData(payload: EmergencyDetailsRequest): IterableIte
     const response: undefined | EmergencyDetailsResponse = yield AuthService.EmergencyDetails(payload);
     yield put(EmergencyDetailsActions.getEmergencyDetailsSuccess(response as any));
   } catch (error) {
-    yield put(EmergencyDetailsActions.getEmergencyDetailsFailure(error));
+    yield put(EmergencyDetailsActions.getEmergencyDetailsFailure(error as any));
   }
 }
 
