@@ -21,7 +21,7 @@ import { useParams } from "react-router-dom";
 
 export default function ExpiredPassesDetails(props: any) {
   const dispatch = useDispatch();
-  const { view } = useParams();
+  const { view }:any = useParams();
   const locationState = props.location.state;
 
   // States
